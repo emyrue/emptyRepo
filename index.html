@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Fork Me! FCC: Test Suite Template</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <h1 id="title">Cool Title</h1>
+    <p id="description">thorough description</p>
+    <form id="survey-form" action="index.html" method="post">
+      <div>
+      <label id="name-label">Name</label>
+      <input id="name" type="text" name="Name" required>
+      </div>
+      <label id="email-label">Email</label>
+      <input id="email" type="email" name="Email" required>
+      <label id="number-label">Age <span class="optional">(optional)</span></label>
+      <input id="number" type="number" name="Number" value="Enter your age" min="0" max="100">
+      <label>Which option best describes your current role?</label>
+      <select id="dropdown" type="text" name="dropdown" value="Select an option">
+        <option value="option one">One</option>
+        <option value="option two">Two</option>
+        <option value="option three">Three</option>
+      </select>
+      <div class="">
+      <label>Are you going to recommend this product to a friend?</label>
+      <input type= "radio" name="choice" value="Definitely">Definitely <br>
+      <input type= "radio" name="choice" value="Maybe">Maybe <br>
+      <input type= "radio" name="choice" value="Not sure">Not sure
+      </div>
+      <label>Select one or more of these options:</label>
+      <input type="checkbox" name="one" value="one"> One <br>
+      <input type="checkbox" name="two" value="two"> Two <br>
+      <input type="checkbox" name="three" value="three"> Three <br>
+      <label>Any additional comments?</label>
+      <textarea>Enter here</textarea>
+      <input id="submit" type="submit" name="button">
+    </form>
+    <script  src="js/index.js"></script>
+  </body>
+</html>
